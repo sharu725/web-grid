@@ -36,13 +36,13 @@ header {
     .main-title {
         font-size: 5rem;
         line-height: 1;
-        margin-top: 150px;
+        padding-top: 150px;
         margin-bottom: 5px;
         color: #eee;
         @include media-query($on-palm) {
             font-size: 3rem;
             line-height: 1;
-            margin-top: 50px;
+            padding-top: 50px;
         }
         
     }

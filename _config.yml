@@ -1,0 +1,12 @@
+### your site title here
+
+title: Web Grid
+baseurl: /web-grid
+
+### exclude the instructions / write-up in the README.md
+
+exclude:
+- README.md
+
+
+

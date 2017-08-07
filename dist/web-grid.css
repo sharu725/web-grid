@@ -22,7 +22,7 @@
 
 
  /* 720px */
-@media only screen and (min-width: 45em) { 
+@media only screen and (min-width: 720px) { 
     
     .row {
         grid-template-columns: repeat(12, 1fr);

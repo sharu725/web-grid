@@ -1,6 +1,7 @@
 ### your site title here
 
 title: Web Grid
+description: Web Grid is a CSS grid based Grid system for easy web development. The minified Grid CSS weighs less than a KB.
 baseurl: /web-grid
 
 ### exclude the instructions / write-up in the README.md
@@ -9,4 +10,5 @@ exclude:
 - README.md
 
 
-
+gems: 
+    - jekyll-seo-tag

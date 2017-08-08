@@ -1,9 +1,8 @@
 .row {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
 }
-
 
 .c-1,
 .c-2,
@@ -24,9 +23,6 @@
  /* 720px */
 @media only screen and (min-width: 720px) { 
     
-    .row {
-        grid-template-columns: repeat(12, 1fr);
-    }
 
     .c-1 {
         grid-column: span 1;

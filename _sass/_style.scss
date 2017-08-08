@@ -45,14 +45,13 @@ header {
         grid-column: 2 / 3;
         font-size: 5rem;
         line-height: 1;
-  /*       padding-top: 150px; */
         margin-bottom: 5px;
         color: #eee;
         @include media-query($on-palm) {
             font-size: 3rem;
             line-height: 1;
-            /* padding-top: 50px; */
-        }
+            margin-top: 0;
+           }
         
     }
     .tagline {

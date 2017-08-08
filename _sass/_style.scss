@@ -29,25 +29,34 @@ header {
     padding: 0;
     text-align: center;
     grid-column: 1 / -1;
-    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     @include media-query($on-palm) {
             height: 200px;
         }
     
+    .headline {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    
     .main-title {
+        grid-column: 2 / 3;
         font-size: 5rem;
         line-height: 1;
-        padding-top: 150px;
+  /*       padding-top: 150px; */
         margin-bottom: 5px;
         color: #eee;
         @include media-query($on-palm) {
             font-size: 3rem;
             line-height: 1;
-            padding-top: 50px;
+            /* padding-top: 50px; */
         }
         
     }
     .tagline {
+        grid-column: 2 / 3;
         font-size: 2rem;
         color: #ddd;
         margin-top: 0;
@@ -95,7 +104,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px; 
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 
@@ -243,5 +252,27 @@ footer {
     &:hover {
         background-color: $brand-color;
         color: #eee;
+    }
+}
+
+
+.main-image {
+    height: 400px;
+    position: relative;
+    top: -100px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+     @include media-query($on-palm) {  
+        width: 80%;
+        margin: 0 auto;
+        top: -50px;
+    }
+}
+.rel-50 {
+    position: relative;
+    top: -50px;
+    @include media-query($on-palm) {
+        
     }
 }

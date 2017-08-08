@@ -1,7 +1,7 @@
 .row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px;
+    grid-gap: 10px
 }
 
 .c-1,
@@ -17,6 +17,7 @@
 .c-11,
 .c-12 {
     grid-column: span 12;
+    padding: 10px
 }
 
 
@@ -25,51 +26,51 @@
     
 
     .c-1 {
-        grid-column: span 1;
+        grid-column: span 1
     }
 
     .c-2 {
-        grid-column: span 2;
+        grid-column: span 2
     }
 
     .c-3 {
-        grid-column: span 3;
+        grid-column: span 3
     }
 
     .c-4 {
-        grid-column: span 4;
+        grid-column: span 4
     }
 
     .c-5 {
-        grid-column: span 5;
+        grid-column: span 5
     }
 
     .c-6 {
-        grid-column: span 6;
+        grid-column: span 6
     }
 
     .c-7 {
-        grid-column: span 7;
+        grid-column: span 7
     }
 
     .c-8 {
-        grid-column: span 8;
+        grid-column: span 8
     }
 
     .c-9 {
-        grid-column: span 9;
+        grid-column: span 9
     }
 
     .c-10 {
-        grid-column: span 10;
+        grid-column: span 10
     }
 
     .c-11 {
-        grid-column: span 11;
+        grid-column: span 11
     }
 
     .c-12 {
-        grid-column: span 12;
+        grid-column: span 12
     }
   
 }

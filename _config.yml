@@ -6,6 +6,9 @@ baseurl: /web-grid
 
 ### exclude the instructions / write-up in the README.md
 
+sass: 
+    style: compressed
+
 exclude:
 - README.md
 

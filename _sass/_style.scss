@@ -39,6 +39,9 @@ header {
     .headline {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
+        @include media-query($on-palm) {
+            grid-column: 1 / 4;
+        }
     }
     
     .main-title {

@@ -7,6 +7,7 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+  font-family: $base-font-family;
 }
 
 * {
@@ -173,7 +174,7 @@ header {
 
 .item {
     min-height: 100px;
-    border: 1px dashed #333;
+    border: 1px dashed #777;
     padding: 10px;
 }
 

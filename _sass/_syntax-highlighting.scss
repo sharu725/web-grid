@@ -4,15 +4,19 @@
 figure {
     margin: 0;
     padding: 0;
+    
 }
 pre, code {
     word-wrap: break-word;
     word-break: break-all;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    
 }
 .highlight {
     background: #fff;
     border: 1px solid #eee;
     overflow-x: auto;
+    
     .highlighter-rouge & {
       background: #eef;
     }

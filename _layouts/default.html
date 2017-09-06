@@ -16,5 +16,24 @@
 <body>
 {{ content }}
 <script>(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,"script","{{site.baseurl}}/js/analytics.js","ga");ga("create","UA-65551407-1","auto");ga("send","pageview");</script>
+<style>
+    .message {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        background-color: firebrick;
+        color: #eee;
+        padding: 5px;
+    }
+    
+    .message:after {
+            content: "This browser does not support CSS Grid Layout."
+    }
+    @supports(display: grid) {
+        .message {
+            display: none;
+        }
+</style>
 </body>
 </html>

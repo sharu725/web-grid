@@ -82,11 +82,10 @@ header {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
     margin-bottom: 10px;
-
 }
 
 
-.c-1,
+/* .c-1,
 .c-2,
 .c-3,
 .c-4,
@@ -99,7 +98,9 @@ header {
 .c-11,
 .c-12 {
     grid-column: span 12;
-}
+} */
+
+[class*="c-"] {grid-column: span 12;}
 
 
 .main-content {
@@ -132,7 +133,9 @@ header {
     grid-gap: 10px;
 }
 
+
     
+
 .c-1 {
     grid-column: span 1;
 }
@@ -188,6 +191,7 @@ header {
     min-height: 100px;
     border: 1px dashed #777;
     padding: 10px;
+    align-self: center;
 }
 
 
@@ -233,10 +237,7 @@ footer {
     padding: 15px;
     h2 {
         line-height: 1.5;
-    }
-    .icon {
-        font-size: 4.5rem;
-        /* color: darken($brand-color, 5%); */
+        font-weight: 300;
     }
 }
 

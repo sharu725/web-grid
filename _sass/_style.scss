@@ -85,20 +85,6 @@ header {
 }
 
 
-/* .c-1,
-.c-2,
-.c-3,
-.c-4,
-.c-5,
-.c-6,
-.c-7,
-.c-8,
-.c-9,
-.c-10,
-.c-11,
-.c-12 {
-    grid-column: span 12;
-} */
 
 [class*="c-"] {grid-column: span 12;}
 
@@ -119,7 +105,7 @@ header {
   }
     
 .main-content {
-        width: 80%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px; 

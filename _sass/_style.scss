@@ -267,3 +267,10 @@ footer {
         
     }
 }
+
+blockquote {
+    border-left: 5px solid $brand-color;
+    padding-left: 1em;
+    font-style: italic;
+    font-size: 1.8em;
+}

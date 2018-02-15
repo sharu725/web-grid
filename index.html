@@ -48,16 +48,19 @@ image: /images/css-grid-framework-mockup.png
             <h1 class="center">Usage</h1>
          </div>
          <div class="c-12">
-        {% highlight html %}
+{% highlight html %}
     <div class="row">
-           <div class="c-4">
-                  <p class="item">Spans over 4 fractions of the available width.</p>
-           </div>
-           <div class="c-8">
-                  <p class="item">Spans over 8 fractions of the available width.</p>
-           </div>
-    </div><!-- end row -->
-        {% endhighlight %}
+      
+       <div class="c-4">
+              <p class="item">Spans over 4 fractions of the available width.</p>
+       </div>
+       
+       <div class="c-8">
+              <p class="item">Spans over 8 fractions of the available width.</p>
+       </div>
+       
+    </div>
+{% endhighlight %}
             <div class="row">
                <div class="c-4">
                   <p class="item">Spans over 4 fractions of the available width.</p>
@@ -155,31 +158,40 @@ image: /images/css-grid-framework-mockup.png
                 <h1 class="center">Usage</h1>
              </div>
          <div class="c-12">
-              {% highlight html %}
-             <div class="row">
-                 <div class="c-6">
-                    <div class="item">Spans over 6 fractions of the available width.</div>
-                 </div>
-                 <div class="c-6">
-                    <div class="item">
-                       <div class="row">
-                          <div class="c-6">
-                             <div class="item">6 fractions</div>
-                          </div>
-                          <div class="c-6">
-                             <div class="item">6 fractions</div>
-                          </div>
-                          <div class="c-4">
-                             <div class="item">4 fractions</div>
-                          </div>
-                          <div class="c-8">
-                             <div class="item">8 fractions</div>
-                          </div>
-                       </div>
-                    </div>
-                 </div>
+{% highlight html %}
+    <div class="row">
+    
+     <div class="c-6">
+        <div class="item">Spans over 6 fractions of the available width.</div>
+     </div>
+     
+     <div class="c-6">
+       
+        <div class="item">
+           <div class="row">
+             
+              <div class="c-6">
+                 <div class="item">6 fractions</div>
               </div>
-              {% endhighlight %}
+              
+              <div class="c-6">
+                 <div class="item">6 fractions</div>
+              </div>
+              
+              <div class="c-4">
+                 <div class="item">4 fractions</div>
+              </div>
+              
+              <div class="c-8">
+                 <div class="item">8 fractions</div>
+              </div>
+              
+           </div>
+        </div>
+     </div>
+     
+    </div>
+{% endhighlight %}
               </div>
            </div>
       
@@ -226,40 +238,52 @@ image: /images/css-grid-framework-mockup.png
                 <h1 class="center">Usage</h1>
              </div>
          <div class="c-12">
-              {% highlight html %}
-             <div class="row">
-                <div class="row">
-                    <div class="c-3 c-50">
-                        <div class="item">3 fractions, 50%(medium screen sizes)</div>
-                    </div>
-                    <div class="c-9 c-50">
-                        <div class="item">9 fractions, 50%(medium screen sizes)</div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="c-2 c-25">
-                        <div class="item">2 fractions, 25%(medium screen sizes)</div>
-                    </div>
-                    <div class="c-10 c-75">
-                        <div class="item">10 fractions, 75%(medium screen sizes)</div>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="c-25">
-                        <div class="item">25%(medium screen sizes & Desktop)</div>
-                    </div>
-                    <div class="c-75">
-                        <div class="item">75%(medium screen sizes & Desktop)</div>
-                    </div>
-                </div>
-              </div>
-              {% endhighlight %}
+{% highlight html %}
+    <div class="row">
+    
+       <div class="row">
+       
+        <div class="c-3 c-50">
+           
+            <div class="item">3 fractions, 50%(medium screen sizes)</div>
+        </div>
+        
+        <div class="c-9 c-50">
+            <div class="item">9 fractions, 50%(medium screen sizes)</div>
+        </div>
+        
+    </div>
+    <div class="row">
+       
+        <div class="c-2 c-25">
+            <div class="item">2 fractions, 25%(medium screen sizes)</div>
+        </div>
+        
+        <div class="c-10 c-75">
+            <div class="item">10 fractions, 75%(medium screen sizes)</div>
+        </div>
+        
+    </div>
+
+    <div class="row">
+       
+        <div class="c-25">
+            <div class="item">25%(medium screen sizes & Desktop)</div>
+        </div>
+        
+        <div class="c-75">
+            <div class="item">75%(medium screen sizes & Desktop)</div>
+        </div>
+        
+    </div>
+    
+    </div>
+{% endhighlight %}
               </div>
            </div>
       
       
-      <div class="row">
+      <div class="row mt-80">
           <div class="c-12">
               <blockquote>Use c-25, c-50, c-75 and c-100 for resizing columns into 25%, 50%, 75% and 100% for medium screen sizes.</blockquote>
           </div>
@@ -270,13 +294,13 @@ image: /images/css-grid-framework-mockup.png
             <h1 class="center">Start Using the Future of Web Development</h1>
          </div>
          <div class="c-4"></div>
-         <div class="c-4 center">
+         <div class="c-4 center mt-80">
             <a href="https://raw.githubusercontent.com/sharu725/web-grid/master/dist/web-grid.css"><button class="btn">Download</button></a>
          </div>
          <div class="c-4"></div>
       </div>
    </div>
-   <footer>
+   <footer class="mt-80">
       <div class="main-content">
          <div class="row">
             <div class="c-4">

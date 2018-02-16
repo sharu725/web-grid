@@ -38,5 +38,14 @@ layout: compress
 <body>
 {{ content }}
 {% include analytics-lite.html %}
+<!-- JQuery  -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Reveal items on scroll -->
+<script type="text/javascript" src="{{site.baseurl}}/js/scrollreveal.min.js"></script> 
+<script>
+    window.sr = ScrollReveal();
+            sr.reveal('.rev', { duration: 1000 });
+</script>
+
 </body>
 </html>

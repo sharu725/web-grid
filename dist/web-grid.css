@@ -82,18 +82,7 @@
 
 @media only screen and (max-width: 800px) and (min-width: 600px) {
     
-    .container {
-        width: 100%;
-      }
-    
-    .main-content {
-        width: 98%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px; 
-        margin-bottom: 10px;
-    }
-    
+
     .c-50 {
         grid-column: span 6;
     }

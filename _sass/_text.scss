@@ -4,6 +4,10 @@
     text-rendering: optimizeLegibility;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $head-font-weight;
+}
+
 h1 {
   font-size: 2.5rem;
 }
@@ -30,7 +34,7 @@ h6 {
 
 p {
   font-size: 1.125rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .font-light {
@@ -38,11 +42,11 @@ p {
 }
 
 .font-regular {
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .font-heavy {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 /* Text position */

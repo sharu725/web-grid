@@ -2,7 +2,7 @@
 
 title: Web Grid | A Grid based CSS Framework
 description: Web Grid is a CSS grid based Grid system for easy web development. The minified Grid CSS weighs less than a KB.
-baseurl: /web-grid
+#baseurl: /web-grid
 
 analytics: UA-113964677-1
 
